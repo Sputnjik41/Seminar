@@ -1,0 +1,14 @@
+{
+    "short_name" : "React aplikacija",
+    "name" : "Primjer React aplikacije",
+    "icons" : [
+        {
+            "src" : "star_trek.ico",
+            "type" : "image/ico"
+        }
+    ],
+    "start_url" : ".",
+    "display" : "standalone",
+    "tema" : "#000000",
+    "pozadina" : "#ffffff"
+}

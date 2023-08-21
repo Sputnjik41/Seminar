@@ -1,0 +1,71 @@
+*{
+    box-sizing : border-box;
+   } 
+
+.send_messages_item {
+    display: flex;
+    flex-direction: column nowrap;
+    height: 100%;
+}   
+
+.send_message_message {
+    float: left;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: blue;    
+}
+
+.send_message_form {
+    float: left;
+    width: 80%;
+}
+
+.message_form_item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message_form_input {
+    width: 80%;
+    height: 50%;
+    border-radius: 20px;
+    border: 2px solid rgb(red, green, blue);
+    margin-right: 1em;
+    padding: 1em;
+}
+
+.message_form_button {
+    width: 20%;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: blue;
+    color: antiquewhite;
+    border-radius: 20px;
+    border: none;
+}
+
+@media screen and (max-width: 1160px) {
+    .submit_message_message {
+        display: none;
+    }
+
+    .submit_message_form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .submit_message_message {
+        display: none;
+    }
+
+    .submit_message_form {
+        width: 100%;
+    }
+}

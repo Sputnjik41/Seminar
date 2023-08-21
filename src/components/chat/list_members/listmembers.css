@@ -1,0 +1,31 @@
+.list_members_item {
+    background-color: antiquewhite;
+    width: 400px;
+    height: 80%;
+    border: 3px solid blue;
+    border-radius: 25px;
+    padding: 10%;
+    overflow-y: auto;
+}
+
+.list_members_members_item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: large;
+    padding: 10%;
+    margin: 3% auto;
+    height: 60px;
+    width: 100%;
+    border: 3px solid whitesmoke;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.list_members_members_avatar {
+    padding-right: 10px;
+}
+
+.list_members_members_username {
+    font-size: 90%;
+}

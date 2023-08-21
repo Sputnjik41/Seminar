@@ -1,0 +1,66 @@
+*{
+    box-sizing : border-box;
+ } 
+
+.chat {
+    background-color: azure;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 300%;
+    min-width: 300px;
+    font-family: sans-serif;
+}   
+
+.chat_main {
+    flex: 1;
+    overflow: hidden;
+}
+
+.chat_main_item {
+    display: flex;
+    height: 100%;
+}
+
+.chat_header,
+.chat_footer {
+    min-height: 100px;
+}
+
+.chat_main_messages {
+    float: left;
+    width: 80%;
+    overflow-y: auto;
+    background: url("../../images/star_trek_background.jpg") no-repeat center/cover;
+}
+
+.chat_main_members {
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1160px) {
+    .chat_main_members {
+        display: none;
+    }
+
+    .chat_main_messages {
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .chat_main_members {
+        display: none;
+    }
+
+    .chat_main_messages {
+        width: 100%;
+    }
+}
